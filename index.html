@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#09090d">
+<meta name="description" content="KAYNEX Dijital Tasarım Stüdyosu. Markanı dijitalde büyüt.">
+<title>KAYNEX — Digital Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:#09090d;color:#f7f5f2;font-family:"DM Sans",sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}:root{--gold:#e6c76d;--gold2:#f7e7a8;--muted:#a5a5b5;--line:rgba(226,194,102,.27);--panel:#121119;--serif:"Playfair Display",Georgia,serif}.topbar{height:78px;position:sticky;top:0;z-index:20;background:rgba(8,8,12,.94);backdrop-filter:blur(16px);border-bottom:1px solid rgba(226,194,102,.14);display:flex;align-items:center;justify-content:space-between;padding:0 max(calc((100vw - 1200px)/2),5%)}.logo{display:flex;align-items:center;gap:11px;font-weight:800;font-size:22px;letter-spacing:1.7px}.logo-symbol{height:42px;width:42px;border:1px solid var(--line);border-radius:13px;display:grid;place-items:center;color:var(--gold);font-size:24px;box-shadow:0 0 22px rgba(226,194,102,.1)}.logo-dot{color:var(--gold)}.logo small{display:block;font-size:7px;letter-spacing:3px;color:#a6a2a9;font-weight:500;margin-top:2px}.nav{display:flex;align-items:center;gap:23px;font-size:11px;color:#d0ccd2}.nav>a:not(.nav-social):hover{color:var(--gold)}.nav-social{width:38px;height:38px;border:1px solid #33313a;border-radius:11px;display:grid;place-items:center;font-size:22px}.nav-social:hover{border-color:var(--gold);color:var(--gold)}.nav-wa{border:1px solid rgba(226,194,102,.28);border-radius:10px;padding:11px 13px;color:#b5a879;opacity:.65;font-size:16px}.nav-wa small{font-size:11px;margin-left:5px}.menu-btn{display:none}.hero{position:relative;min-height:690px;max-width:1200px;margin:auto;padding:105px 5% 80px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:35px;overflow:hidden}.hero:before{content:"";position:absolute;width:650px;height:650px;border-radius:50%;border:1px solid rgba(226,194,102,.09);right:-190px;top:-260px;box-shadow:0 0 0 50px rgba(226,194,102,.018),0 0 0 100px rgba(226,194,102,.012)}.hero-orb{position:absolute;border-radius:50%;filter:blur(100px);pointer-events:none}.orb-one{width:250px;height:250px;background:#77571b;opacity:.13;top:90px;left:20%}.orb-two{width:280px;height:280px;background:#27205d;opacity:.13;right:0;bottom:0}.hero-content,.hero-visual{position:relative;z-index:1}.eyebrow,.section-label{font-size:9px;letter-spacing:2.3px;color:var(--gold);font-weight:700}.eyebrow span{font-size:17px;margin-right:8px}.designer{margin:36px 0 18px;color:#8fd9d3;font-size:10px;letter-spacing:2.4px;font-weight:700}.designer strong{color:var(--gold2);margin-left:8px;text-shadow:0 0 16px rgba(247,231,168,.35)}h1,h2,h3{margin-top:0}h1,h2{font-family:var(--serif);font-weight:700;letter-spacing:-1px}h1{font-size:clamp(42px,5vw,66px);line-height:1.13;margin-bottom:23px}h1 em,h2 em{font-style:normal;color:var(--gold)}.hero-desc{max-width:520px;color:#b1afba;font-size:14px;line-height:1.9}.hero-actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}.gold-button,.outline-button{min-height:52px;padding:0 22px;display:inline-flex;align-items:center;justify-content:center;gap:22px;border-radius:10px;font-size:11px;font-weight:700;transition:.25s}.gold-button{background:linear-gradient(110deg,#b68b34,#f7e9a7 48%,#c79b43);color:#16120a;box-shadow:0 8px 28px rgba(208,171,73,.14)}.gold-button:hover{transform:translateY(-3px);box-shadow:0 12px 35px rgba(208,171,73,.25)}.gold-button b{font-size:19px}.outline-button{border:1px solid rgba(255,255,255,.25);color:#eee}.outline-button:hover{border-color:var(--gold);color:var(--gold)}.stats{display:flex;gap:0;margin-top:55px;padding:22px 0;border-top:1px solid rgba(255,255,255,.1);max-width:530px}.stats div{flex:1;border-right:1px solid rgba(255,255,255,.1);padding-left:19px}.stats div:first-child{padding-left:0}.stats div:last-child{border:0}.stats strong{display:block;font:700 22px var(--serif);color:var(--gold2)}.stats span{display:block;font-size:8px;letter-spacing:1.4px;color:#92909d;margin-top:7px}.hero-visual{height:440px;display:grid;place-items:center}.visual-ring{position:absolute;width:410px;height:410px;border:1px solid rgba(226,194,102,.25);border-radius:50%;box-shadow:0 0 0 30px rgba(226,194,102,.025),0 0 80px rgba(226,194,102,.07)}.visual-panel{position:relative;width:min(390px,90%);height:330px;border:1px solid rgba(226,194,102,.55);border-radius:5px;background:linear-gradient(145deg,#1c1924,#0d0c12 75%);box-shadow:0 30px 90px #000,0 0 50px rgba(226,194,102,.07);padding:22px;display:flex;flex-direction:column;justify-content:space-between;transform:rotate(2deg)}.visual-panel:after{content:"";position:absolute;inset:9px;border:1px solid rgba(226,194,102,.12);pointer-events:none}.visual-top,.visual-bottom{display:flex;justify-content:space-between;color:#a9a3a5;font-size:8px;letter-spacing:2px}.visual-logo{font:800 150px/.9 var(--serif);letter-spacing:-15px;text-align:center;color:#f8f4eb;text-shadow:0 0 30px rgba(226,194,102,.12)}.visual-logo span{color:var(--gold)}.visual-bottom{color:var(--gold)}.floating-note{position:absolute;right:-2px;bottom:45px;padding:13px 17px;background:#17151d;border:1px solid var(--line);font-size:9px;letter-spacing:2px;color:#eee;box-shadow:0 12px 35px #000}.floating-note b{color:var(--gold);margin-left:7px}.section{max-width:1200px;margin:auto;padding:95px 5%}.intro{border-top:1px solid rgba(255,255,255,.08)}.section-label span{color:#8fd9d3;margin:0 8px}.section-title-row{display:flex;align-items:end;justify-content:space-between;gap:40px;margin:22px 0 38px}.section-title-row h2,.contact h2{font-size:clamp(34px,4.5vw,52px);line-height:1.16;margin:0}.section-title-row>p{max-width:390px;color:var(--muted);font-size:12px;line-height:1.9;margin:0 0 4px}.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.service-card{background:linear-gradient(145deg,#15141c,#101016);border:1px solid rgba(255,255,255,.09);border-radius:13px;padding:23px 20px;min-height:260px;transition:.25s}.service-card:hover{transform:translateY(-5px);border-color:var(--line);box-shadow:0 15px 40px rgba(0,0,0,.25)}.service-icon{width:42px;height:42px;border:1px solid var(--line);border-radius:12px;display:grid;place-items:center;color:var(--gold);font-size:21px;margin-bottom:22px}.service-card>small{font-size:8px;letter-spacing:1.5px;color:#827c88}.service-card h3{font:700 16px var(--serif);margin:13px 0 10px}.service-card p{font-size:11px;line-height:1.8;color:var(--muted);min-height:60px}.service-card>a{font-size:10px;color:var(--gold)}.service-card>a b{margin-left:8px}.pricing{border-top:1px solid rgba(255,255,255,.08)}.price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.price-card{position:relative;background:linear-gradient(145deg,#15141d,#100f15);border:1px solid rgba(226,194,102,.25);border-radius:18px;padding:25px 24px 22px;min-height:335px;display:flex;flex-direction:column;overflow:hidden;transition:.25s}.price-card:hover{transform:translateY(-4px);border-color:rgba(226,194,102,.7);box-shadow:0 18px 45px rgba(0,0,0,.25)}.card-meta{display:flex;justify-content:space-between;color:#a9a1a7;font-size:8px;letter-spacing:1.8px;margin-bottom:22px}.card-meta span{color:#77717c}.price-card h3{font:700 23px var(--serif);margin-bottom:12px}.price-card p{font-size:11px;line-height:1.8;color:#aaa7b3;min-height:42px;margin-bottom:22px}.price{display:flex;align-items:baseline;gap:12px;margin-top:auto}.price del{font-size:12px;color:#77717e;text-decoration-color:#b58b45}.price strong{font:700 36px "DM Sans",sans-serif;letter-spacing:-1px;color:var(--gold2)}.price strong small{font-size:12px;letter-spacing:0}.offer{font-size:8px;letter-spacing:2px;color:#e1c76e;margin:7px 0 17px;font-weight:700}.buy{border:1px solid rgba(226,194,102,.4);border-radius:9px;min-height:43px;display:flex;align-items:center;justify-content:space-between;padding:0 14px;font-size:10px;font-weight:700;color:#f0df9c;transition:.2s}.buy:hover{background:rgba(226,194,102,.1);border-color:var(--gold)}.buy b{font-size:16px}.featured{border-color:#d4b45e;background:linear-gradient(145deg,rgba(100,77,29,.22),#111018 70%);box-shadow:0 0 35px rgba(226,194,102,.07)}.popular{position:absolute;top:0;right:0;background:linear-gradient(100deg,#b88d38,#f6e6a0);color:#17120a;padding:8px 12px;font-size:7px;letter-spacing:1px;font-weight:800}.price-note{color:#797580;font-size:9px;line-height:1.8;margin:20px 0 0}.contact{padding-top:35px;padding-bottom:90px}.contact-box{position:relative;overflow:hidden;padding:58px 7%;border:1px solid var(--line);border-radius:17px;background:radial-gradient(circle at 85% 50%,rgba(146,111,36,.15),transparent 32%),linear-gradient(110deg,#17141d,#101016)}.contact h2{margin:20px 0}.contact p{color:var(--muted);font-size:12px;margin-bottom:25px}.watermark{position:absolute;right:7%;top:-20px;font:800 220px var(--serif);letter-spacing:-25px;color:rgba(226,194,102,.045);pointer-events:none}.contact .gold-button{position:relative;z-index:1}.footer{max-width:1200px;margin:auto;padding:30px 5% 20px;border-top:1px solid rgba(255,255,255,.1);display:grid;grid-template-columns:1fr 1fr 1fr;align-items:center;gap:20px}.footer .logo{font-size:19px}.footer p{text-align:center;color:#aaa4ad;font-size:10px;margin:0}.footer p span{color:var(--gold)}.footer-social{display:flex;justify-content:flex-end;gap:10px}.footer-social a,.footer-social span{width:35px;height:35px;border:1px solid #39343e;border-radius:10px;display:grid;place-items:center;color:#c9b777;font-size:19px}.footer-social span{opacity:.45}.copyright{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.07);padding-top:16px;color:#706b75;font-size:8px;letter-spacing:1.5px}
+@media(max-width:900px){.hero{grid-template-columns:1fr;padding-top:75px}.hero-visual{height:390px}.service-grid{grid-template-columns:repeat(2,1fr)}.price-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.topbar{height:70px;padding:0 18px}.logo{font-size:19px}.logo-symbol{width:37px;height:37px}.menu-btn{display:flex;flex-direction:column;gap:6px;background:transparent;border:1px solid #46414b;border-radius:10px;padding:12px}.menu-btn i{display:block;width:19px;height:2px;background:#e8dba9}.nav{display:none;position:absolute;top:69px;left:0;right:0;background:#0d0c12;padding:22px 20px 25px;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:16px}.nav.open{display:flex}.nav-social{width:100%;height:39px}.nav-wa{text-align:center}.hero{display:block;padding:75px 20px 45px;min-height:0}.eyebrow{font-size:8px;letter-spacing:1.5px}.designer{margin-top:30px;font-size:8px}.designer strong{font-size:9px}h1{font-size:43px;line-height:1.18}.hero-desc{font-size:13px}.hero-actions{display:grid;grid-template-columns:1fr}.gold-button,.outline-button{width:100%;min-height:53px}.stats{margin-top:37px}.stats div{padding-left:10px}.stats strong{font-size:17px}.stats span{font-size:7px;letter-spacing:.8px}.hero-visual{height:330px;margin-top:24px}.visual-ring{width:290px;height:290px}.visual-panel{height:260px;width:84%;padding:17px}.visual-logo{font-size:118px}.floating-note{right:0;bottom:25px}.section{padding:72px 20px}.section-title-row{display:block;margin:19px 0 28px}.section-title-row h2,.contact h2{font-size:38px}.section-title-row>p{margin-top:18px;font-size:11px}.service-grid{grid-template-columns:1fr 1fr;gap:9px}.service-card{padding:17px 14px;min-height:250px}.service-card h3{font-size:14px}.service-card p{font-size:10px;min-height:78px}.service-icon{width:37px;height:37px;margin-bottom:17px}.price-grid{grid-template-columns:1fr;gap:13px}.price-card{min-height:310px;padding:23px 21px}.price-card h3{font-size:24px}.price-card p{min-height:0}.contact{padding-top:20px;padding-bottom:65px}.contact-box{padding:42px 23px}.watermark{font-size:145px;right:0;top:20px}.footer{padding:25px 20px 18px;grid-template-columns:1fr auto}.footer p{grid-column:1/-1;text-align:left;grid-row:2}.footer-social{grid-column:2;grid-row:1}.copyright{font-size:7px;line-height:1.7}}
+@media(max-width:360px){.service-grid{grid-template-columns:1fr}.service-card{min-height:220px}.service-card p{min-height:0}h1{font-size:38px}}
+
+
+/* KAYNEX brand refresh: deep burgundy, clean white, authentic social marks */
+:root{--burgundy:#641D3D;--burgundy-deep:#260d1b;--white:#fff;--turquoise:#29C7C3}
+body{background:radial-gradient(ellipse at 12% 8%,rgba(100,29,61,.42),transparent 38%),#09090d;color:#fff}
+.topbar{background:rgba(37,10,25,.96);border-bottom:1px solid rgba(255,255,255,.13)}
+.logo-symbol{background:linear-gradient(145deg,#641D3D,#351020);border-color:rgba(255,255,255,.25);color:#fff}
+.logo-dot{color:#29C7C3}
+.hero{background:radial-gradient(ellipse at 0% 35%,rgba(100,29,61,.35),transparent 55%)}
+.hero:before{border-color:rgba(255,255,255,.10);box-shadow:0 0 0 50px rgba(100,29,61,.07),0 0 0 100px rgba(100,29,61,.035)}
+.hero-orb.orb-one{background:#8b3157;opacity:.19}
+.hero-orb.orb-two{background:#29C7C3;opacity:.07}
+h1 em,h2 em{color:#29C7C3}
+.designer{color:#29C7C3}
+.designer strong{color:#fff;text-shadow:0 0 16px rgba(255,255,255,.24)}
+.eyebrow,.section-label{color:#e9c978}
+.gold-button{background:linear-gradient(110deg,#641D3D,#8a3158 52%,#641D3D);color:#fff;border:1px solid rgba(255,255,255,.22);box-shadow:0 8px 28px rgba(100,29,61,.28)}
+.gold-button:hover{box-shadow:0 12px 35px rgba(100,29,61,.4)}
+.outline-button{border-color:rgba(255,255,255,.42);color:#fff}
+.service-card,.price-card{background:linear-gradient(145deg,rgba(100,29,61,.22),#111016 75%);border-color:rgba(255,255,255,.14)}
+.service-card:hover,.price-card:hover{border-color:rgba(41,199,195,.6)}
+.service-icon{border-color:rgba(41,199,195,.35);color:#29C7C3}
+.service-card>a,.offer{color:#29C7C3}
+.price-card.featured{border-color:#29C7C3;background:linear-gradient(145deg,rgba(100,29,61,.4),#111018 70%)}
+.buy{border-color:rgba(41,199,195,.5);color:#fff}
+.buy:hover{background:rgba(41,199,195,.12);border-color:#29C7C3}
+.contact-box{background:radial-gradient(circle at 85% 50%,rgba(100,29,61,.34),transparent 36%),linear-gradient(110deg,#301020,#101016);border-color:rgba(255,255,255,.2)}
+.watermark{color:rgba(255,255,255,.045)}
+.nav-social{padding:8px;color:#fff;background:#17131a}
+.nav-social svg,.footer-social svg{width:20px;height:20px;display:block}
+.nav-social.instagram:hover,.footer-social .instagram:hover{border-color:#d94b86;color:#ff7bb1}
+.nav-social.tiktok svg,.footer-social .tiktok svg{color:#fff}
+.whatsapp-disabled{color:#25D366!important;border-color:rgba(37,211,102,.35)!important;background:rgba(37,211,102,.07)!important;cursor:default;opacity:.9}
+.whatsapp-disabled svg{width:21px;height:21px}
+.footer-social a{display:grid;place-items:center}
+.footer-social .instagram{color:#ff75ad}
+.footer-social .tiktok{color:#fff}
+@media(max-width:620px){.nav-social{width:100%;height:42px}.nav-social svg{width:22px;height:22px}.whatsapp-disabled{display:grid;place-items:center}}
+
+
+/* Expanded, readable service descriptions */
+.service-card p,.price-card p{line-height:1.9}
+.service-card p{min-height:105px}
+.price-card p{min-height:105px}
+@media(max-width:620px){
+ .service-card p{min-height:125px}
+ .price-card p{min-height:0; margin-bottom:24px}
+}
+
+
+/* Service inclusions: clear checklist inspired by the reference */
+.feature-list{list-style:none;margin:0 0 24px;padding:18px 0 0;border-top:1px solid rgba(255,255,255,.09);display:grid;gap:12px}
+.feature-list li{display:grid;grid-template-columns:19px 1fr;align-items:start;gap:10px;color:#d8d5dc;font-size:11px;line-height:1.65}
+.feature-check{width:17px;height:17px;border-radius:50%;display:grid;place-items:center;background:rgba(41,199,195,.12);border:1px solid rgba(41,199,195,.38);color:#29C7C3;font-size:10px;font-weight:800;margin-top:1px}
+.price-card{min-height:0}
+.price-card .price{margin-top:auto}
+.price-card .buy{margin-top:0}
+@media(max-width:620px){
+ .feature-list{gap:11px;padding-top:16px;margin-bottom:22px}
+ .feature-list li{font-size:11px;line-height:1.65}
+}
+
+
+/* Signature KAYNEX Premium Bundle card */
+.price-card.featured{
+  border:1px solid transparent;
+  background:
+    linear-gradient(155deg,#190b14 0%,#111018 48%,#0d1216 100%) padding-box,
+    linear-gradient(135deg,#f4df9b 0%,#8d3158 38%,#29C7C3 100%) border-box;
+  box-shadow:0 18px 55px rgba(100,29,61,.22),0 0 32px rgba(226,194,102,.09);
+}
+.price-card.featured:before{
+  content:"";position:absolute;inset:0 0 auto;height:4px;
+  background:linear-gradient(90deg,#641D3D,#e6c76d,#29C7C3);
+}
+.price-card.featured:after{
+  content:"K";position:absolute;right:18px;top:54px;
+  font:700 92px/1 Georgia,serif;color:rgba(255,255,255,.025);
+  pointer-events:none;
+}
+.price-card.featured .popular{
+  background:linear-gradient(100deg,#641D3D,#8c3158);
+  color:#fff;border:1px solid rgba(247,231,168,.35);
+  border-radius:0 15px 0 12px;padding:9px 13px;
+}
+.premium-kicker{display:inline-flex;align-self:flex-start;margin:8px 0 13px;padding:7px 10px;border:1px solid rgba(41,199,195,.35);border-radius:30px;color:#29C7C3;font-size:8px;font-weight:800;letter-spacing:1.7px}
+.price-card.featured .card-meta{color:#e4c978}
+.price-card.featured .premium-meta{color:#e4c978}
+.price-card.featured .premium-title{font-size:30px;color:#fff;margin-bottom:10px}
+.price-card.featured .premium-desc{min-height:0;color:#c8c0ca;font-size:12px;line-height:1.9;margin-bottom:20px}
+.premium-includes{border:1px solid rgba(230,199,109,.28);border-radius:13px;padding:15px;margin:0 0 18px;background:linear-gradient(135deg,rgba(100,29,61,.28),rgba(15,17,22,.72))}
+.premium-includes-head{font-size:8px;letter-spacing:1.8px;color:#e6c76d;font-weight:800;margin-bottom:13px}
+.premium-service{display:grid;grid-template-columns:29px 1fr;gap:10px;align-items:start;padding:11px 0;border-top:1px solid rgba(255,255,255,.08)}
+.premium-service:first-of-type{border-top:0}
+.premium-number{width:27px;height:27px;border-radius:8px;display:grid;place-items:center;background:linear-gradient(135deg,#641D3D,#8f365b);color:#fff;font-size:9px;font-weight:800}
+.premium-service strong{display:block;color:#fff;font-size:11px;margin:1px 0 4px}
+.premium-service small{display:block;color:#aaa7b3;font-size:9px;line-height:1.6}
+.premium-feature-list{border-top:1px solid rgba(41,199,195,.22);padding-top:15px}
+.price-card.featured .feature-check{background:rgba(41,199,195,.13);border-color:rgba(41,199,195,.45);color:#29C7C3}
+.price-card.featured .offer{color:#29C7C3;font-size:9px}
+.price-card.featured .price strong{color:#f7e7a8}
+.price-card.featured .buy{background:linear-gradient(105deg,#641D3D,#8b3158);border-color:#b65b7d;color:#fff;min-height:49px}
+.price-card.featured .buy:hover{background:linear-gradient(105deg,#7a264b,#a34269);box-shadow:0 8px 24px rgba(100,29,61,.35)}
+@media(max-width:620px){
+ .price-card.featured .premium-title{font-size:29px}
+ .premium-includes{padding:13px}
+ .price-card.featured:after{font-size:76px}
+}
+
+
+.lang-switch{display:flex;align-items:center;gap:6px;margin-left:12px;flex-shrink:0}.lang-switch button{background:#17151d;color:#e8dba9;border:1px solid rgba(226,194,102,.35);padding:8px 11px;border-radius:9px;font-weight:700;font-size:11px;cursor:pointer}.lang-switch button.active{background:linear-gradient(110deg,#b68b34,#f7e9a7);color:#17120a}
+.reviews{border-top:1px solid rgba(255,255,255,.08)}.review-box{background:linear-gradient(145deg,#15141c,#101016);border:1px solid var(--line);border-radius:16px;padding:30px;display:flex;align-items:center;justify-content:space-between;gap:24px}.review-box p{color:var(--muted);font-size:13px;line-height:1.8;max-width:650px}.review-box h3{font:700 25px var(--serif);margin:0}.review-note{font-size:10px!important;color:#8f8996!important}.review-box .gold-button{white-space:nowrap}
+html[dir="rtl"] body{font-family:"DM Sans",Tahoma,sans-serif}html[dir="rtl"] .topbar,html[dir="rtl"] .nav,html[dir="rtl"] .section-title-row,html[dir="rtl"] .review-box{direction:rtl}html[dir="rtl"] .hero{direction:rtl}html[dir="rtl"] .hero-content,html[dir="rtl"] .section,html[dir="rtl"] .price-card,html[dir="rtl"] .service-card{text-align:right}html[dir="rtl"] .stats div{border-right:0;border-left:1px solid rgba(255,255,255,.1)}html[dir="rtl"] .stats div:last-child{border:0}html[dir="rtl"] .floating-note{right:auto;left:-2px}html[dir="rtl"] .popular{right:auto;left:0}html[dir="rtl"] .watermark{right:auto;left:7%}html[dir="rtl"] .footer{direction:rtl}html[dir="rtl"] .footer p{text-align:center}html[dir="rtl"] .footer-social{justify-content:flex-start}
+@media(max-width:620px){.review-box{display:block;padding:22px}.review-box .gold-button{margin-top:12px}.lang-switch{margin-left:8px}.topbar{gap:8px}.topbar .logo{min-width:0}.topbar .logo small{letter-spacing:2px}}
+</style>
+<script defer>
+const menuButton=document.querySelector('.menu-btn');
+const nav=document.querySelector('.nav');
+menuButton?.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open));menuButton.setAttribute('aria-label',open?'Menüyü kapat':'Menüyü aç')});
+nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menuButton?.setAttribute('aria-expanded','false')}));
+document.querySelectorAll('.buy').forEach(a=>{a.classList.add('dm-action');a.dataset.message=`Merhaba KAYNEX, ${a.dataset.service||'hizmetleriniz'} hakkında bilgi almak istiyorum. Fiyat ve detayları öğrenebilir miyim?`;});
+document.querySelectorAll('.dm-action').forEach(a=>a.addEventListener('click',async e=>{const msg=a.dataset.message;if(msg){try{await navigator.clipboard.writeText(msg);a.dataset.originalText=a.innerText;a.innerText='Mesaj kopyalandı — Instagram açılıyor';}catch(err){}}}));
+const translations={
+'Ana Sayfa':'الرئيسية','Hizmetler':'خدماتنا','Fiyatlar':'الأسعار','Yorumlar':'آراء الزوار',
+'MARKANI DİJİTALDE BİR ADIM ÖNE TAŞI':'ارتقِ بعلامتك التجارية في العالم الرقمي','Markanızı Dijital':'ارتقِ بعلامتك','Dünyada ':'في العالم ','Büyütün.':'الرقمي.','Sıradan tasarımların ötesine geçin. Markanızın karakterini yansıtan, dikkat çeken ve müşterilerinizle bağ kuran dijital deneyimler tasarlıyoruz.':'نصمم تجارب رقمية تعكس هوية علامتك التجارية، وتجذب الانتباه، وتساعدك على التواصل مع عملائك.',
+'Hizmetleri ve Fiyatları İncele':'اكتشف الخدمات والأسعار','Neler Yapıyoruz?':'ماذا نقدم؟','MOBİL UYUMLU':'متوافق مع الجوال','MARKA TASARIMI':'هوية العلامة','İLETİŞİM TALEBİ':'تواصل معنا',
+'KAYNEX STUDIO':'استوديو KAYNEX','HİZMETLERİMİZ':'خدماتنا','Markanız için':'لمسة إبداعية','doğru dokunuş.':'تناسب علامتك.','İlk fikirden dijital vitrine kadar, markanızın ihtiyaç duyduğu yaratıcı çözümleri tek çatı altında sunuyoruz.':'من الفكرة الأولى إلى حضورك الرقمي، نقدم حلولاً إبداعية تلبي احتياجات علامتك التجارية.',
+'Web Sitesi Tasarımı':'تصميم المواقع','Reklam Tasarımı':'تصميم الإعلانات','Logo Tasarımı':'تصميم الشعارات','Reels Montajı':'مونتاج ريلز','Detayları gör':'اكتشف التفاصيل',
+'AÇILIŞA ÖZEL FİYATLAR':'عروض الافتتاح','Kaliteli tasarım,':'تصميم احترافي،','özel başlangıç fiyatları.':'بأسعار بداية مميزة.','İhtiyacınıza uygun hizmeti seçin. Projenizi konuşmak için bize Instagram üzerinden ulaşın.':'اختر الخدمة المناسبة لك، وتواصل معنا عبر إنستغرام لمناقشة مشروعك.',
+'Reklam Fotoğrafı':'تصميم صورة إعلانية','Reklam Videosu':'فيديو إعلاني','Web Sitesi':'موقع إلكتروني','Standart Logo':'شعار أساسي','Premium Logo':'شعار مميز','Premium Paket':'الباقة المميزة','Satın Al':'اطلب الخدمة','AÇILIŞA ÖZEL':'عرض الافتتاح',
+'ZİYARETÇİ GÖRÜŞLERİ':'آراء الزوار','Görüşünüz':'رأيك','bizim için değerli.':'مهم بالنسبة لنا.','Hizmetlerimiz hakkında soru, öneri veya geri bildiriminizi Instagram üzerinden bize iletebilirsiniz.':'يمكنك إرسال أسئلتك أو اقتراحاتك أو ملاحظاتك حول خدماتنا عبر إنستغرام.','İlk yorum sizden gelsin.':'كن أول من يشارك رأيه.','Henüz yayınlanmış müşteri yorumu bulunmuyor. Gerçek deneyiminizi bizimle paylaşın; yorumunuzu inceleyip yayınlamak için sizinle iletişime geçelim.':'لا توجد تقييمات منشورة حتى الآن. شاركنا تجربتك الحقيقية، وسنتواصل معك لمراجعة تعليقك قبل نشره.','Görüş paylaş':'شارك رأيك',
+'Birlikte güçlü':'لنصنع معاً','bir iz bırakalım.':'أثراً مميزاً.','Markanız için ilk adımı atın. Projenizi konuşmak için Instagram'dan bize yazın.':'ابدأ الخطوة الأولى لعلامتك التجارية. راسلنا عبر إنستغرام لمناقشة مشروعك.','Instagram'dan İletişime Geç':'تواصل معنا عبر إنستغرام','Markanı dijitalde büyüt.':'نمِّ علامتك في العالم الرقمي.'
+};
+function setLanguage(lang){const ar=lang==='ar';document.documentElement.lang=ar?'ar':'tr';document.documentElement.dir=ar?'rtl':'ltr';document.querySelectorAll('[data-lang]').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));document.querySelectorAll('body *').forEach(el=>{if(el.children.length===0){if(!el.dataset.trText)el.dataset.trText=el.textContent.trim();const tr=el.dataset.trText;if(ar&&translations[tr])el.textContent=translations[tr];else if(!ar)el.textContent=tr;}});document.querySelectorAll('.dm-action').forEach(a=>{a.dataset.message=ar?'مرحباً KAYNEX، أود معرفة المزيد عن خدماتكم وأسعاركم. هل يمكنكم مساعدتي؟':(a.dataset.service?`Merhaba KAYNEX, ${a.dataset.service} hakkında bilgi almak istiyorum. Fiyat ve detayları öğrenebilir miyim?`:'Merhaba KAYNEX, hizmetleriniz hakkında bilgi almak istiyorum.');});}
+document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>setLanguage(b.dataset.lang)));
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="#home" aria-label="KAYNEX ana sayfa"><span class="logo-symbol">✦</span><span>KAYNEX<span class="logo-dot">.</span><small>DIGITAL STUDIO</small></span></a>
+  <button class="menu-btn" aria-label="Menüyü aç" aria-expanded="false"><i></i><i></i></button>
+  <nav class="nav">
+    <a href="#home">Ana Sayfa</a><a href="#services">Hizmetler</a><a href="#pricing">Fiyatlar</a><a href="#reviews">Yorumlar</a>
+    <a class="nav-social instagram" href="https://www.instagram.com/kaynex.digital/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg></a>
+    <a class="nav-social tiktok" href="https://www.tiktok.com/@kaynexdigital" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3v11.1a4.1 4.1 0 1 1-3.6-4.07v3.2a1.1 1.1 0 1 0 .6.98V3h3c.2 2.1 1.3 3.5 3.8 3.8v3.1A8 8 0 0 1 15 8.3" fill="currentColor"/><path d="M14.2 3h2.1c.2 1.9 1.1 3 2.5 3.5" fill="none" stroke="#25F4EE" stroke-width="1.2"/><path d="M14.8 3h1.5c.2 1.9 1.1 3 2.5 3.5" fill="none" stroke="#FE2C55" stroke-width="1.2"/></svg></a>
+    <span class="nav-social whatsapp-disabled" title="WhatsApp henüz aktif değil" aria-label="WhatsApp henüz aktif değil"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.1 11.8a8.1 8.1 0 0 1-12 7.1L3 20l1.2-4.9a8.1 8.1 0 1 1 15.9-3.3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.2 7.8c.2-.5.5-.5.8-.5h.5c.2 0 .4.1.5.4l.8 1.8c.1.2.1.4-.1.6l-.6.7c-.2.2-.2.4 0 .7.5.9 1.3 1.7 2.3 2.2.3.2.5.2.7-.1l.8-.9c.2-.2.4-.2.7-.1l1.7.8c.3.1.4.3.4.5 0 .4-.2 1.2-.7 1.6-.5.5-1.2.7-2 .5-1-.2-2.2-.8-3.6-2-1.7-1.5-2.7-3.2-3-4.2-.3-.9 0-1.6.8-2Z" fill="currentColor"/></svg></span>
+  </nav>
+  <div class="lang-switch" aria-label="Dil seçimi"><button type="button" class="active" data-lang="tr">TR</button><button type="button" data-lang="ar">العربية</button></div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+  <div class="hero-content">
+    <div class="eyebrow"><span>✦</span> MARKANI DİJİTALDE BİR ADIM ÖNE TAŞI</div>
+    <p class="designer">DESIGNED BY <strong>KAYYS ELABDULLAH</strong></p>
+    <h1>Markanızı Dijital<br>Dünyada <em>Büyütün.</em></h1>
+    <p class="hero-desc">Sıradan tasarımların ötesine geçin. Markanızın karakterini yansıtan, dikkat çeken ve müşterilerinizle bağ kuran dijital deneyimler tasarlıyoruz.</p>
+    <div class="hero-actions"><a class="gold-button" href="#pricing">Hizmetleri ve Fiyatları İncele <b>›</b></a><a class="outline-button" href="#services">Neler Yapıyoruz?</a></div>
+    <div class="stats">
+      <div><strong>%100</strong><span>MOBİL UYUMLU</span></div><div><strong>ÖZGÜN</strong><span>MARKA TASARIMI</span></div><div><strong>7/24</strong><span>İLETİŞİM TALEBİ</span></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="visual-ring"></div><div class="visual-panel"><div class="visual-top"><span>KAYNEX / CREATIVE STUDIO</span><span>EST. 2026</span></div><div class="visual-logo">K<span>X</span></div><div class="visual-bottom"><span>IDEAS INTO IDENTITY</span><span>01 — 04</span></div></div>
+    <div class="floating-note">DESIGN <b>✦</b> DIGITAL</div>
+  </div>
+</section>
+
+<section class="intro section" id="services">
+  <div class="section-label">KAYNEX STUDIO <span>—</span> HİZMETLERİMİZ</div>
+  <div class="section-title-row"><h2>Markanız için<br><em>doğru dokunuş.</em></h2><p>İlk fikirden dijital vitrine kadar, markanızın ihtiyaç duyduğu yaratıcı çözümleri tek çatı altında sunuyoruz.</p></div>
+  <div class="service-grid">
+    <article class="service-card"><span class="service-icon">⌘</span><small>01 / DIGITAL</small><h3>Web Sitesi Tasarımı</h3><p>Markanızı güçlü gösteren, hızlı ve tüm ekranlara uyum sağlayan web siteleri.</p><a href="#pricing">Detayları gör <b>↗</b></a></article>
+    <article class="service-card"><span class="service-icon">▧</span><small>02 / CAMPAIGN</small><h3>Reklam Tasarımı</h3><p>Ürün veya hizmetinizin öne çıkan yönlerini anlaşılır bir görsel hiyerarşiyle sunan reklam tasarımları. Renk, yazı ve görsel seçimini marka kimliğinize ve paylaşım amacınıza göre uyumlu hale getiriyoruz.</p><a href="#pricing">Detayları gör <b>↗</b></a></article>
+    <article class="service-card"><span class="service-icon">✳</span><small>03 / IDENTITY</small><h3>Logo Tasarımı</h3><p>Markanızın sektörünü, hedef kitlesini ve vermek istediği mesajı dikkate alan logo çalışmaları. Sade, dengeli ve farklı dijital kullanım alanlarında tanınabilir bir görünüm hedefliyoruz.</p><a href="#pricing">Detayları gör <b>↗</b></a></article>
+    <article class="service-card"><span class="service-icon">▶</span><small>04 / MOTION</small><h3>Reels Montajı</h3><p>Videolarınızı izleme akışını destekleyen kesmeler, uygun müzik ve ses düzeni, yazı bindirmeleri ve ritimli geçişlerle kurguluyoruz. Dikey Reels formatına uygun çıktı hazırlıyoruz.</p><a href="#pricing">Detayları gör <b>↗</b></a></article>
+  </div>
+</section>
+
+<section class="pricing section" id="pricing">
+  <div class="section-label">KAYNEX LAUNCH OFFERS <span>—</span> AÇILIŞA ÖZEL FİYATLAR</div>
+  <div class="section-title-row"><h2>Kaliteli tasarım,<br><em>özel başlangıç fiyatları.</em></h2><p>İhtiyacınıza uygun hizmeti seçin. Projenizi konuşmak için bize Instagram üzerinden ulaşın.</p></div>
+  <div class="price-grid">
+    <article class="price-card"><div class="card-meta">GÖRSEL TASARIM <span>01</span></div><h3>Reklam Fotoğrafı</h3><p>Ürün fotoğrafı, kampanya mesajı ve marka renklerini tek bir dengeli kompozisyonda buluşturan reklam görseli. Sosyal medya paylaşımında telefondan da kolay okunması için metin boyutu ve yerleşimine dikkat edilir.</p><ul class="feature-list"><li><span class="feature-check">✓</span><span>Marka renklerine ve tarzına uygun görsel dil</span></li><li><span class="feature-check">✓</span><span>Ürün veya hizmet odaklı kompozisyon</span></li><li><span class="feature-check">✓</span><span>Dikkat çekici başlık ve kampanya metni yerleşimi</span></li><li><span class="feature-check">✓</span><span>Telefon ekranında rahat okunabilir tasarım</span></li><li><span class="feature-check">✓</span><span>Instagram gönderi formatına uygun çalışma</span></li><li><span class="feature-check">✓</span><span>Renk, kontrast ve görsel denge düzenlemesi</span></li></ul><div class="price"><del>800 TL</del><strong>500 <small>TL</small></strong></div><div class="offer">✦ AÇILIŞA ÖZEL</div><a class="buy" data-service="Reklam Fotoğrafı" href="https://ig.me/m/kaynex.digital" target="_blank" rel="noopener">Satın Al <b>↗</b></a></article>
+    <article class="price-card"><div class="card-meta">VİDEO PRODÜKSİYON <span>02</span></div><h3>Reklam Videosu</h3><p>30–60 saniyelik tanıtım videosu; seçilen görüntülerin kurgulanması, ritme uygun geçişler, temel ses düzeni ve gerekli kısa metinlerin eklenmesini kapsar. Yayınlanacağı sosyal medya formatına göre kadrajı planlarız.</p><ul class="feature-list"><li><span class="feature-check">✓</span><span>30–60 saniyelik kısa tanıtım videosu</span></li><li><span class="feature-check">✓</span><span>Paylaştığınız görüntülerin kurgu ve sıralaması</span></li><li><span class="feature-check">✓</span><span>Akıcı kesmeler ve uygun geçiş efektleri</span></li><li><span class="feature-check">✓</span><span>Temel ses seviyesi ve ses düzenlemesi</span></li><li><span class="feature-check">✓</span><span>Videoyu destekleyen kısa yazı ve başlıklar</span></li><li><span class="feature-check">✓</span><span>Dikey sosyal medya kadrajına uygun çıktı</span></li></ul><div class="price"><del>1.500 TL</del><strong>1.000 <small>TL</small></strong></div><div class="offer">✦ AÇILIŞA ÖZEL</div><a class="buy" data-service="Reklam Videosu (30–60 saniye)" href="https://ig.me/m/kaynex.digital" target="_blank" rel="noopener">Satın Al <b>↗</b></a></article>
+    <article class="price-card"><div class="card-meta">DİJİTAL VARLIK <span>03</span></div><h3>Web Sitesi</h3><p>İşletmenizin hizmetlerini, iletişim bilgilerini ve marka kimliğini bir araya getiren web sitesi tasarımı. Telefon, tablet ve masaüstünde farklı ekran genişliklerine uyum sağlayan düzen; kolay okunabilir içerik ve rahat dokunulabilir menü öğeleri içerir.</p><ul class="feature-list"><li><span class="feature-check">✓</span><span>Telefon, tablet ve bilgisayara uyumlu sayfa düzeni</span></li><li><span class="feature-check">✓</span><span>Farklı ekranlarda rahat kullanılan menü yapısı</span></li><li><span class="feature-check">✓</span><span>Marka renkleri ve görsel kimliğine uygun arayüz</span></li><li><span class="feature-check">✓</span><span>Hizmetlerinizi tanıtan içerik bölümleri</span></li><li><span class="feature-check">✓</span><span>İletişim ve sosyal medya bağlantıları için alan</span></li><li><span class="feature-check">✓</span><span>Okunaklı yazılar ve kolay gezinme</span></li><li><span class="feature-check">✓</span><span>Yaygın mobil ve masaüstü ekran genişliklerine uyum</span></li><li><span class="feature-check">✓</span><span>Temel sayfa başlığı ve açıklama alanları</span></li></ul><div class="price"><del>2.500 TL</del><strong>2.000 <small>TL</small></strong></div><div class="offer">✦ AÇILIŞA ÖZEL</div><a class="buy" data-service="Web Sitesi" href="https://ig.me/m/kaynex.digital" target="_blank" rel="noopener">Satın Al <b>↗</b></a></article>
+    <article class="price-card"><div class="card-meta">MARKA KİMLİĞİ <span>04</span></div><h3>Standart Logo</h3><p>Marka adınızı kolay tanınır hale getirmeyi amaçlayan sade logo tasarımı. Renk ve tipografi seçimi, markanızın tarzı ve kullanım alanları dikkate alınarak hazırlanır.</p><ul class="feature-list"><li><span class="feature-check">✓</span><span>Marka adına özel logo tasarımı</span></li><li><span class="feature-check">✓</span><span>Marka tarzına uygun renk seçimi</span></li><li><span class="feature-check">✓</span><span>Okunaklı ve dengeli tipografi</span></li><li><span class="feature-check">✓</span><span>Sade ve kolay hatırlanabilir tasarım yaklaşımı</span></li><li><span class="feature-check">✓</span><span>Dijital profillerde kullanılmaya uygun görünüm</span></li><li><span class="feature-check">✓</span><span>Açık ve koyu zeminlerde görünürlük kontrolü</span></li></ul><div class="price"><del>500 TL</del><strong>300 <small>TL</small></strong></div><div class="offer">✦ AÇILIŞA ÖZEL</div><a class="buy" data-service="Standart Logo" href="https://ig.me/m/kaynex.digital" target="_blank" rel="noopener">Satın Al <b>↗</b></a></article>
+    <article class="price-card"><div class="card-meta">MARKA KİMLİĞİ <span>05</span></div><h3>Premium Logo</h3><p>Markanızın karakterini daha ayrıntılı ele alan premium logo çalışması. Birden fazla görsel yaklaşım üzerinde değerlendirme yaparak markanıza uygun, dengeli ve dijital mecralarda kullanılabilir bir kimlik oluşturmayı hedefler.</p><ul class="feature-list"><li><span class="feature-check">✓</span><span>Marka karakteri ve sektörüne göre tasarım yaklaşımı</span></li><li><span class="feature-check">✓</span><span>Özgün sembol ve tipografi uyumu</span></li><li><span class="feature-check">✓</span><span>Renk paleti üzerine özenli çalışma</span></li><li><span class="feature-check">✓</span><span>Dijital kullanım alanları düşünülerek tasarım</span></li><li><span class="feature-check">✓</span><span>Küçük boyutlarda okunabilirlik kontrolü</span></li><li><span class="feature-check">✓</span><span>Açık ve koyu zeminlerde kullanım değerlendirmesi</span></li><li><span class="feature-check">✓</span><span>Daha detaylı görsel düzenleme ve son rötuşlar</span></li></ul><div class="price"><del>800 TL</del><strong>500 <small>TL</small></strong></div><div class="offer">✦ AÇILIŞA ÖZEL</div><a class="buy" data-service="Premium Logo" href="https://ig.me/m/kaynex.digital" target="_blank" rel="noopener">Satın Al <b>↗</b></a></article>
+    <article class="price-card"><div class="card-meta">SOSYAL MEDYA <span>06</span></div><h3>Reels Montajı</h3><p>Paylaştığınız görüntülerden sosyal medya için akıcı Reels videosu hazırlanır. Kurgu, ritme uygun kesmeler, geçişler, temel ses düzeni ve videonun mesajını destekleyen kısa yazılarla içerik daha anlaşılır hale getirilir.</p><ul class="feature-list"><li><span class="feature-check">✓</span><span>Instagram Reels için dikey video kurgusu</span></li><li><span class="feature-check">✓</span><span>Görüntülerin akıcı sırayla birleştirilmesi</span></li><li><span class="feature-check">✓</span><span>Ritme uygun kesmeler ve geçişler</span></li><li><span class="feature-check">✓</span><span>Videoya uygun kısa başlık ve metinler</span></li><li><span class="feature-check">✓</span><span>Temel ses seviyesi düzenlemesi</span></li><li><span class="feature-check">✓</span><span>İzleme akışını destekleyen tempo düzeni</span></li><li><span class="feature-check">✓</span><span>Mobil ekranda okunabilir yazı yerleşimi</span></li></ul><div class="price"><del>2.500 TL</del><strong>2.000 <small>TL</small></strong></div><div class="offer">✦ AÇILIŞA ÖZEL</div><a class="buy" data-service="Reels Montajı" href="https://ig.me/m/kaynex.digital" target="_blank" rel="noopener">Satın Al <b>↗</b></a></article>
+    <article class="price-card featured"><div class="popular">✦ KAYNEX ÖZEL PAKET</div><div class="premium-kicker">TAM DİJİTAL MARKA KİMLİĞİ</div><div class="card-meta"><span class="premium-meta">ÖZEL TASARIM PAKETİ</span><span>07 / 07</span></div><h3 class="premium-title">Premium Paket</h3>
+    <p class="premium-desc">Markanızın dijitalde güçlü ve tutarlı görünmesi için üç temel hizmet tek pakette: size özel logo, mobil uyumlu web sitesi ve markanızla bütünleşen reklam tasarımı.</p>
+    <div class="premium-includes">
+      <div class="premium-includes-head">PAKETE DAHİL 3 ANA HİZMET</div>
+      <div class="premium-service"><span class="premium-number">01</span><div><strong>Özgün Logo Tasarımı</strong><small>Marka karakterinize uygun renk ve tipografi</small></div></div>
+      <div class="premium-service"><span class="premium-number">02</span><div><strong>Mobil Uyumlu Web Sitesi</strong><small>Telefon, tablet ve bilgisayarda uyumlu arayüz</small></div></div>
+      <div class="premium-service"><span class="premium-number">03</span><div><strong>Reklam Tasarımı</strong><small>Marka kimliğinizle tutarlı tanıtım görseli</small></div></div>
+    </div>
+    <ul class="feature-list premium-feature-list">
+      <li><span class="feature-check">✓</span><span>Marka renkleri ve yazı karakterlerinde görsel bütünlük</span></li>
+      <li><span class="feature-check">✓</span><span>Mobil ekranlarda rahat kullanılan sayfa düzeni</span></li>
+      <li><span class="feature-check">✓</span><span>Hizmet ve iletişim bilgileri için web bölümleri</span></li>
+      <li><span class="feature-check">✓</span><span>Sosyal medya paylaşımlarına uygun reklam görseli</span></li>
+      <li><span class="feature-check">✓</span><span>Dijital kanallarda tutarlı ve profesyonel marka görünümü</span></li>
+    </ul><div class="price"><del>4.000 TL</del><strong>3.000 <small>TL</small></strong></div><div class="offer">✦ AÇILIŞA ÖZEL</div><a class="buy" data-service="Premium Paket (Logo + Web sitesi + Reklam tasarımı)" href="https://ig.me/m/kaynex.digital" target="_blank" rel="noopener">Satın Al <b>↗</b></a></article>
+  </div>
+  <p class="price-note">Açılışa özel fiyatlar belirtilen hizmet kapsamı için geçerlidir. Proje detayları Instagram DM üzerinden netleştirilir.</p>
+</section>
+
+<section class="reviews section" id="reviews"><div class="section-label">KAYNEX STUDIO <span>—</span> ZİYARETÇİ GÖRÜŞLERİ</div><div class="section-title-row"><h2>Görüşünüz<br><em>bizim için değerli.</em></h2><p>Hizmetlerimiz hakkında soru, öneri veya geri bildiriminizi Instagram üzerinden bize iletebilirsiniz.</p></div><div class="review-box"><div><h3>İlk yorum sizden gelsin.</h3><p>Henüz yayınlanmış müşteri yorumu bulunmuyor. Gerçek deneyiminizi bizimle paylaşın; yorumunuzu inceleyip yayınlamak için sizinle iletişime geçelim.</p><p class="review-note">Not: Bu bölümde örnek veya doğrulanmamış müşteri yorumu kullanılmamaktadır.</p></div><a class="gold-button dm-action" href="https://ig.me/m/kaynex.digital" target="_blank" rel="noopener" data-message="Merhaba KAYNEX, web siteniz hakkında görüşümü paylaşmak istiyorum.">Görüş paylaş <b>↗</b></a></div></section>
+
+<section class="contact section">
+  <div class="contact-box"><div class="section-label">YOUR BRAND, OUR CREATIVE TOUCH</div><h2>Birlikte güçlü<br><em>bir iz bırakalım.</em></h2><p>Markanız için ilk adımı atın. Projenizi konuşmak için Instagram'dan bize yazın.</p><a class="gold-button" href="https://ig.me/m/kaynex.digital" target="_blank" rel="noopener">Instagram'dan İletişime Geç <b>↗</b></a><span class="watermark">KX</span></div>
+</section>
+</main>
+<footer class="footer">
+  <a class="logo" href="#home"><span class="logo-symbol">✦</span><span>KAYNEX<span class="logo-dot">.</span><small>DIGITAL STUDIO</small></span></a>
+  <p>Markanı dijitalde büyüt. <span>— Kayys Elabdullah</span></p>
+  <div class="footer-social"><a class="instagram" href="https://www.instagram.com/kaynex.digital/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg></a><a class="tiktok" href="https://www.tiktok.com/@kaynexdigital" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3v11.1a4.1 4.1 0 1 1-3.6-4.07v3.2a1.1 1.1 0 1 0 .6.98V3h3c.2 2.1 1.3 3.5 3.8 3.8v3.1A8 8 0 0 1 15 8.3" fill="currentColor"/><path d="M14.2 3h2.1c.2 1.9 1.1 3 2.5 3.5" fill="none" stroke="#25F4EE" stroke-width="1.2"/><path d="M14.8 3h1.5c.2 1.9 1.1 3 2.5 3.5" fill="none" stroke="#FE2C55" stroke-width="1.2"/></svg></a><span class="whatsapp-disabled" title="WhatsApp henüz aktif değil" aria-label="WhatsApp henüz aktif değil"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.1 11.8a8.1 8.1 0 0 1-12 7.1L3 20l1.2-4.9a8.1 8.1 0 1 1 15.9-3.3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.2 7.8c.2-.5.5-.5.8-.5h.5c.2 0 .4.1.5.4l.8 1.8c.1.2.1.4-.1.6l-.6.7c-.2.2-.2.4 0 .7.5.9 1.3 1.7 2.3 2.2.3.2.5.2.7-.1l.8-.9c.2-.2.4-.2.7-.1l1.7.8c.3.1.4.3.4.5 0 .4-.2 1.2-.7 1.6-.5.5-1.2.7-2 .5-1-.2-2.2-.8-3.6-2-1.7-1.5-2.7-3.2-3-4.2-.3-.9 0-1.6.8-2Z" fill="currentColor"/></svg></span></div>
+  <div class="copyright">© <span id="year"></span> KAYNEX DIGITAL STUDIO. TÜM HAKLARI SAKLIDIR.</div>
+</footer>
+</body></html>
